@@ -38,14 +38,14 @@ roslaunch rrbot_control rrbot_effort_control.launch
 ```
 **After running the control node, run the 'rrbot_robust_control.m' matlab file provided in the repository.**
 
-https://user-images.githubusercontent.com/118299474/209412574-bb3b6c8b-1dce-431b-9b49-c7b86aa4136a.mp4
+https://user-images.githubusercontent.com/118299474/209414988-be72d934-a456-472d-bbc4-c91c3d0dbee1.mp4
 
 ## Performance Plots
-The plot depicts the desired trajectory generated, that must be followed by the rrbot manipulator and the performance of the manipulator. 
+**The plot depicts the desired trajectory generated, that must be followed by the rrbot manipulator and the performance of the manipulator.** 
 
 ![Screenshot from 2022-11-29 11-16-52](https://user-images.githubusercontent.com/118299474/209414791-3d249be6-3abe-48da-b595-69fc27e8b2a0.png)
 
-After implementing robust-control, theshattering issue in the torques is removed.
+**After implementing robust-control, theshattering issue in the torques is removed.**
 
 ![Screenshot from 2022-11-28 15-48-25](https://user-images.githubusercontent.com/118299474/209414859-e867756f-3ff4-4083-9c28-c5c5fd58c12d.png)
 
