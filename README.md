@@ -47,4 +47,5 @@ The plot depicts the desired trajectory generated, that must be followed by the 
 
 After implementing robust-control, theshattering issue in the torques is removed.
 
+![Screenshot from 2022-11-28 15-48-25](https://user-images.githubusercontent.com/118299474/209414859-e867756f-3ff4-4083-9c28-c5c5fd58c12d.png)
 
