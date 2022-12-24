@@ -58,9 +58,6 @@ while(t < 10)
     jointData = receive(JointStates);
     % inspect the "jointData" variable in MATLAB to get familiar with its structure
     % implement your state feedback controller below
-    
-    %K1 = [23.5850,5.8875,5.1470,2.6108];
-    %K2 = [5.8875,4.9875,1.5443,0.9770];
     cstate = [wrapTo2Pi(jointData.Position(1));wrapTo2Pi(jointData.Position(2));jointData.Velocity(1);jointData.Velocity(2)];
     % sample the time, joint state values, and calculated torques here to be plotted at the end
     theta1 = jointData.Position(1);
